@@ -1,0 +1,16 @@
+// Checkout Custom
+#checkout{
+    padding: 40px 0px;
+    .woocommerce-info{
+        border-top-color: #C09B6A;
+        background-color: #87878725;
+        color: #000000;   
+    }
+    button{
+        padding: 15px 28px;
+        background-color: #C09B6A;
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
