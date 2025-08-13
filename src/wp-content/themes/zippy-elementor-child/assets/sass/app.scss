@@ -1,0 +1,65 @@
+//Import Custom
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import "checkout";
+@import "cart";
+//Body Custom
+body {
+    font-family: 'Poppins', sans-serif;
+}
+// WooEcommerce Custom
+.woocommerce-message {
+    display: none;
+}
+// Homepage Custom
+#feature-product {
+    .product_type_simple {
+        display: none;
+    }
+}
+// Shop Custom
+#shop-category {
+    border-radius: 40px;
+    padding: 20px 10px;
+
+    .jkit-product-category {
+        margin-top: -20px;
+        margin-block: 20px;
+    }
+}
+#archive-product-container {
+    .woocommerce-result-count {
+        margin: 0;
+        font-size: 16px;
+        color: #878787;
+    }
+
+    .orderby {
+        border-color: #878787;
+        color: #878787;
+        padding: 10px;
+        width: 200px;
+    }
+
+    .attachment-woocommerce_thumbnail {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+
+    .woocommerce-loop-product__title {
+        white-space: nowrap;
+        max-width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+// Single Product 
+#single-product {
+    .woocommerce-loop-product__title {
+        white-space: nowrap;
+        max-width: inherit;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
