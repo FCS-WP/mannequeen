@@ -3,6 +3,7 @@
 @import "cart";
 @import "footer";
 @import "shop";
+@import "singleproduct";
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -33,13 +34,5 @@ body {
     width: 100%;
     height: 300px;
     object-fit: cover;
-  }
-}
-#single-product {
-  .woocommerce-loop-product__title {
-    white-space: nowrap;
-    max-width: inherit;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 }

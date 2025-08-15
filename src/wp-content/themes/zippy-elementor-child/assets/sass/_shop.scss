@@ -14,7 +14,8 @@
           h2 {
             padding: 0;
             width: inherit;
-            height: 75px;
+            max-width: 295px;
+            max-height: 75px;
             overflow: hidden;
             display: -webkit-box;
             -webkit-line-clamp: 3;

@@ -1,17 +1,18 @@
-#home-featured-product-list {
+#single-product-related-products {
   ul {
     li {
       a {
         h2 {
           padding: 0;
           overflow: hidden;
-          max-width: 285px;
-          max-height: 60px;
+          max-width: 280px;
+          max-height: 40px;
           text-overflow: ellipsis;
           display: -webkit-box;
           -webkit-line-clamp: 3;
           -webkit-box-orient: vertical;
           line-clamp: 3;
+          white-space: wrap;
         }
       }
     }
