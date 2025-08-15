@@ -1,17 +1,29 @@
-#archive-product-container .woocommerce-loop-product__title {
-  max-width: 100%;
-  text-overflow: ellipsis;
-  white-space-collapse: preserve;
-  text-wrap-mode: wrap;
+#archive-product-container {
+  .woocommerce-loop-product__title {
+    max-width: 100%;
+    text-overflow: ellipsis;
+    white-space-collapse: preserve;
+    text-wrap-mode: wrap;
+  }
 }
-#shop-body #shop-product-list ul li a h2 {
-  padding: 0;
-  width: inherit;
-  height: 75px;
-  overflow: hidden;
-  display: -webkit-box;
-  -webkit-line-clamp: 3;
-  line-clamp: 3;
-  -webkit-box-orient: vertical;
-  text-overflow: ellipsis;
+#shop-body {
+  #shop-product-list {
+    ul {
+      li {
+        a {
+          h2 {
+            padding: 0;
+            width: inherit;
+            height: 75px;
+            overflow: hidden;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            line-clamp: 3;
+            -webkit-box-orient: vertical;
+            text-overflow: ellipsis;
+          }
+        }
+      }
+    }
+  }
 }
